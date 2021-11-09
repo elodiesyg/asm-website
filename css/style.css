@@ -160,6 +160,23 @@
   padding: 2rem 1rem 2rem 1rem;
 }
 
+/* Map content */
+
+.map-flexbox {
+  display: flex;
+  justify-content: center;
+}
+
+.access-flexbox {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2rem;
+}
+
+.map-text {
+  text-align: center;
+}
+
 /* Media query */
 
 @media (min-width: 375px) {
