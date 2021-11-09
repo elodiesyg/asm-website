@@ -3,3 +3,68 @@
   padding: 0;
   box-sizing: 0;
 }
+
+/* Global CSS */
+
+.text-decoration-none {
+  text-decoration: none;
+}
+
+.white {
+  color: white;
+}
+
+.global-margin {
+  margin: 0.5rem;
+}
+
+/* Navbar */
+
+.navbar {
+  height: 100%;
+  background-color: rgb(149, 174, 156);
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.nav-item {
+  list-style-type: none;
+}
+
+@media (min-width: 425px) {
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    justify-content: flex-end;
+  }
+  .global-margin {
+    margin: 0.8rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .navbar {
+/*     font-size: 1.2rem;
+ */  }
+}
+
+@media (min-width: 1440px) {
+  .navbar {
+/*     font-size: 1.5rem;
+ */  }
+}
+
+@media (min-width: 2560px) {
+    .navbar {
+        height: 8rem;
+/*         font-size: 3rem;
+ */    }
+}
