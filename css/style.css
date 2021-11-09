@@ -139,6 +139,23 @@
   flex-direction: column;
 }
 
+/* Values content */
+
+.values-container {
+  margin-top: 2rem;
+}
+
+.values-flexbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.values-text {
+  text-align: center;
+  padding: 2rem 1rem 2rem 1rem;
+}
+
 /* Media query */
 
 @media (min-width: 375px) {
@@ -191,6 +208,13 @@
   .who-flexbox {
     flex-direction: row;
     justify-content: space-around;
+  }
+  .values-flexbox {
+    flex-direction: row;
+  }
+  .values-text {
+    width: 20rem;
+    height: 12rem;  
   }
 }
 
