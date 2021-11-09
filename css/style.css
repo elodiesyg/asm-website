@@ -1,7 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: 0;
+  font-family: "Nunito";
 }
 
 /* Global CSS */
@@ -16,6 +20,10 @@
 
 .underline {
   text-decoration: underline;
+}
+
+.roboto {
+  font-family: "Roboto", sans-serif;
 }
 
 .white {
@@ -48,7 +56,7 @@
 }
 
 .radius-5 {
-    border-radius: 5%;
+  border-radius: 5%;
 }
 
 .radius-full {
@@ -56,7 +64,7 @@
 }
 
 .size {
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 .global-margin {
@@ -68,7 +76,7 @@
 }
 
 .pt-2 {
-    padding-top: 2rem;
+  padding-top: 2rem;
 }
 
 .pb-2 {
@@ -86,9 +94,14 @@
 
 /* Navbar */
 
+.fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 .navbar {
   height: 100%;
-
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -116,13 +129,13 @@
 .app-img {
   width: 8rem;
   position: absolute;
-  top: 54rem;
+  top: 61rem;
 }
 
 /* Why content */
 
 .why-img {
-    width: 15rem;
+  width: 15rem;
 }
 
 .why-flexbox {
@@ -177,11 +190,24 @@
   text-align: center;
 }
 
+/* Footer */
+
+.footer-flexbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer2-flexbox {
+  display: flex;
+  justify-content: center;
+}
+
 /* Media query */
 
 @media (min-width: 375px) {
   .app-img {
-    top: 53rem;
+    top: 57rem;
   }
 }
 
@@ -193,7 +219,7 @@
   }
   .app-img {
     width: 10rem;
-    top: 44rem;
+    top: 49rem;
   }
   .container-padding {
     padding-top: 4rem;
@@ -204,16 +230,17 @@
 @media (min-width: 768px) {
   .navbar {
     justify-content: flex-end;
+    height: 4rem;
   }
   .global-margin {
     margin: 0.8rem;
   }
   .bg-image {
-    height: 25rem;
+    height: 35rem;
   }
   .app-img {
     width: 13rem;
-    top: 48rem;
+    top: 61rem;
   }
   .container-padding {
     padding-top: 6rem;
@@ -235,7 +262,7 @@
   }
   .values-text {
     width: 20rem;
-    height: 12rem;  
+    height: 12rem;
   }
 }
 
@@ -244,24 +271,24 @@
     margin: 2rem 5rem 2rem 5rem;
   }
   .bg-image {
-    height: 30rem;
+    height: 45rem;
   }
   .title-margin {
     margin: 5rem;
   }
   .app-img {
     width: 15rem;
-    top: 53rem;
+    top: 70rem;
   }
 }
 
 @media (min-width: 1440px) {
   .bg-image {
-    height: 35rem;
+    height: 50rem;
   }
   .app-img {
     width: 18rem;
-    top: 55rem;
+    top: 72rem;
   }
 }
 
@@ -270,10 +297,10 @@
     height: 8rem;
   }
   .bg-image {
-    height: 45rem;
+    height: 80rem;
   }
   .app-img {
     width: 20rem;
-    top: 69rem;
+    top: 104rem;
   }
 }

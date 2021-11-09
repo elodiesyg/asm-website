@@ -24,7 +24,7 @@
     <header>
     <!-- Navbar -->
 
-    <div>
+    <div class="fixed">
         <ul class="background-green navbar">
             <li class="global-margin nav-item">
                 <a class="text-decoration-none white" href="#approche">Mon approche</a>
@@ -49,7 +49,7 @@
         <div class="bg-image flex-col justify-end">
             <div class="title-margin">
                 <h2 class="white size">Anne-Sarah MONNEAU</h2>
-                <h2 class="white size">Psychologue</h2>
+                <h2 class="white size roboto">Psychologue</h2>
             </div>
         </div>
     </header>
@@ -73,7 +73,7 @@
                 <img class="radius-full app-img" src="./img/perm.png" alt="anne-sarah_picture" />
             </div>
             <div class="white">
-                <h2 class="mt-1">Mon approche</h2>
+                <h2 class="mt-1" id="approche">Mon approche</h2>
                 <p class="mt-1">Je suis diplômée de l'Université de Psychologie à Lille, titulaire d'un Master intégratif orienté sur les problématiques liées à la justice et inscrite au répertoire ADELI.</p>
                 <p class="mt-1">La pratique intégrative est une approche qui va utiliser différentes interventions choisies à partir des besoins spécifiques de l'individu. L'intégration se fait par l'assimilation de différentes approches en psychologie, afin de guider au mieux la personne dans sa demande.</p>
                 <p class="mt-1">En ce qui me concerne, je me définis comme un psychologue d'orientation humaniste, orienté sur la singulatité de l'individu tout en l'accompagnant dans sa globalité (histoire, personnalité, valeurs, besoins...), et qui s'inspire des approches cognitives et comportementales dans l'apport d'outils de compréhension émotionnelle et de gestion de soi.</p>
@@ -84,7 +84,7 @@
     <!-- Why content -->
 
     <div class="container pt-2 pb-2">
-        <h2 class="ligth-green">Pourquoi consulter ?</h2>
+        <h2 class="ligth-green" id="pourquoi_consulter">Pourquoi consulter ?</h2>
         <p class="mt-1">Peut-être avez vous repéré que certains de vos besoins n'étaient pas respectés... Peut-être avez vous ressenti ou indentifié certains freins vous empêchant de vous épanouir sereinement...Peut-être avez vous senti qu'il se passait en vous des sensations désagéables, des émotions difficiles...Peut-être observez-vous des questions sans réponse, des blocages pouvant vous frainer dans certaines actions, des comportements qui vous posent problème, des pensées qui viennent et reviennent inlassablement...</p>
         <p class="mt-1">Dans ce cas, vous êtes au bon endroit.</p>
         <p class="mt-1">Il exisiste autant de motifs de consultation que d'êtres humains, mais en voici quelques exemples :</p>
@@ -126,7 +126,7 @@
 
     <div class="background-green pt-2 pb-2 white">
         <div class="container">
-            <h2 class="mt-1">Déroulement du premier rendez-vous</h2>
+            <h2 class="mt-1" id="premiere_consultation">Déroulement du premier rendez-vous</h2>
             <p class="mt-1">Le premier rendez-vous peut faire l'objet de nombreux questionnements et d'inquiétudes : "Que vais-je dire ?", "Par quoi vais-je commencer ?", "Qu'en sera t'il après cette première recontre ?", "Vais-je être à l'aise ?", "Vais-je avoir confiance ?"...</p>
             <p class="mt-1">Rassurez vous, il est bien naturel de ressentir des apprégensions à évoquer son mal être, ses difficultés, ses moments de faiblesse. Et sachez qu'une première consultation ne vous engage à rien.</p>
             <p class="mt-1">Mon but est de vous offrir  un espace rien qu'à vous, où vous serez libre de parler de ce qui vous ait souffrir, sans jugement, en toute confidentialité et à votre rythme.</p>
@@ -166,7 +166,7 @@
     <!-- Price content -->
 
     <div class="container pt-2 pb-2">
-        <h2 class="ligth-green">Tarifs</h2>
+        <h2 class="ligth-green" id="tarifs">Tarifs</h2>
         <p class="mt-1">Séance individuelle : 50€</p>
         <p class="mt-1">(Paiements par chèque, espèces, paypal)</p>
         <p class="mt-1">Les séances ne sont pas remboursées par la sécurité sociale, ainsi je vous suggère de solliciter votre mutuelle qui est susceptible de proposer une prise en charge.</p>
@@ -177,7 +177,7 @@
     <!-- Appointment content -->
 
     <div class="container pt-2 pb-2">
-        <h2 class="ligth-green">Prendre Rendez-vous</h2>
+        <h2 class="ligth-green" id="prendre_rdv">Prendre Rendez-vous</h2>
         <p class="mt-1">Il ne vous reste plus qu'un pas à faire : prendre rendez-vous.</p>
         <p class="mt-1">En ligne, par téléphone, par mail, je suis à disposition.</p>
     </div>
@@ -202,15 +202,27 @@
             </div>
         </div>
     </div>
-    
+
     <!-- Footer-->
 
-    <footer>
-        <div>
-            Footer
+    <footer class="background-green pt-2 pb-2 white">
+        <div class="footer-flexbox">
+            <p>Anne-Sarah MONNEAU</p>
+            <p>Psychologue clinicienne</p>
+
+            <p class="mt-1">1 Bois du Mont Lambert,</p>
+            <p>62280, Saint-Martin-Boulogne</p>
+            <p>07.85.92.43.63</p>
+            <p>asmonneau.psychologue@gmail.com</p>
+
+            <p class="mt-1">N° ADELI : 62 93 1161 4</p>
+            <p>N° SIRET : 00000000000</p>
+        </div>
+        <div class="footer2-flexbox mt-1">
+            <a class="global-margin text-decoration-none white" href="#">Plan du site</a>
+            <a class="global-margin text-decoration-none white" href="#">Mentions légales</a>
         </div>
     </footer>
     
 </body>
-
 </html>
