@@ -68,7 +68,7 @@
 }
 
 .title-margin {
-  margin: 1rem;
+  margin: 2rem;
 }
 
 /* Media query */
@@ -91,9 +91,6 @@
   .bg-image {
     height: 25rem;
   }
-  .title-margin {
-    margin: 3rem;
-  }
 }
 
 @media (min-width: 1024px) {
@@ -112,9 +109,6 @@
   .bg-image {
     height: 35rem;
   }
-  .title-margin {
-    margin: 7rem;
-  }
 }
 
 @media (min-width: 2560px) {
@@ -123,8 +117,5 @@
   }
   .bg-image {
     height: 45rem;
-  }
-  .title-margin {
-    margin: 9rem;
   }
 }
