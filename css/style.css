@@ -98,6 +98,7 @@
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 100;
 }
 
 .navbar {
@@ -129,7 +130,7 @@
 .app-img {
   width: 8rem;
   position: absolute;
-  top: 61rem;
+  top: 49rem;
 }
 
 /* Why content */
@@ -207,7 +208,7 @@
 
 @media (min-width: 375px) {
   .app-img {
-    top: 57rem;
+    top: 45rem;
   }
 }
 
@@ -219,7 +220,7 @@
   }
   .app-img {
     width: 10rem;
-    top: 49rem;
+    top: 43rem;
   }
   .container-padding {
     padding-top: 4rem;
@@ -240,7 +241,7 @@
   }
   .app-img {
     width: 13rem;
-    top: 61rem;
+    top: 56rem;
   }
   .container-padding {
     padding-top: 6rem;
@@ -278,7 +279,7 @@
   }
   .app-img {
     width: 15rem;
-    top: 70rem;
+    top: 66rem;
   }
 }
 
@@ -288,7 +289,7 @@
   }
   .app-img {
     width: 18rem;
-    top: 72rem;
+    top: 69rem;
   }
 }
 
@@ -301,6 +302,6 @@
   }
   .app-img {
     width: 20rem;
-    top: 104rem;
+    top: 97rem;
   }
 }
