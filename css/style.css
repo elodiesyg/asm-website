@@ -22,6 +22,15 @@
   color: rgb(149, 174, 156);
 }
 
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
 .global-margin {
   margin: 0.5rem;
 }
@@ -30,10 +39,8 @@
   margin-top: 1rem;
 }
 
-@media (min-width: 1024px) {
-  .container {
-    margin: 2rem 5rem 2rem 5rem;
-  }
+.size {
+  font-size: 1rem;
 }
 
 /* Navbar */
@@ -51,6 +58,21 @@
   list-style-type: none;
 }
 
+/* Background Image */
+
+.bg-image {
+  background-image: url("../img/bg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 20rem;
+}
+
+.title-margin {
+  margin: 1rem;
+}
+
+/* Media query */
+
 @media (min-width: 425px) {
   .navbar {
     display: flex;
@@ -66,10 +88,32 @@
   .global-margin {
     margin: 0.8rem;
   }
+  .bg-image {
+    height: 25rem;
+  }
+  .title-margin {
+    margin: 3rem;
+  }
 }
 
 @media (min-width: 1024px) {
-  .navbar {
+  .container {
+    margin: 2rem 5rem 2rem 5rem;
+  }
+  .bg-image {
+    height: 30rem;
+  }
+  .title-margin {
+    margin: 5rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .bg-image {
+    height: 35rem;
+  }
+  .title-margin {
+    margin: 7rem;
   }
 }
 
@@ -77,6 +121,10 @@
   .navbar {
     height: 8rem;
   }
+  .bg-image {
+    height: 45rem;
+  }
+  .title-margin {
+    margin: 9rem;
+  }
 }
-
-/* Welcome contente */
