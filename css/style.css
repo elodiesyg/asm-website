@@ -30,6 +30,10 @@
   color: white;
 }
 
+.black {
+  color: black
+}
+
 .ligth-green {
   color: rgb(149, 174, 156);
 }
@@ -174,6 +178,13 @@
   padding: 2rem 1rem 2rem 1rem;
 }
 
+/* Appointment content */
+
+.apt-flexbox {
+  display: flex;
+  align-items: center;
+}
+
 /* Map content */
 
 .map-flexbox {
@@ -206,6 +217,12 @@
 
 /* Media query */
 
+@media (min-width: 320px) {
+  .navbar {
+    visibility: hidden;
+  }
+}
+
 @media (min-width: 375px) {
   .app-img {
     top: 45rem;
@@ -232,6 +249,7 @@
   .navbar {
     justify-content: flex-end;
     height: 4rem;
+    visibility: visible;
   }
   .global-margin {
     margin: 0.8rem;
