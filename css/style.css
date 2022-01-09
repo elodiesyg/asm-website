@@ -103,6 +103,10 @@ body {
   padding-top: 6rem;
 }
 
+.bold {
+  font-weight: bold;
+}
+
 /* Navbar */
 
 .fixed {
