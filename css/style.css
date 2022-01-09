@@ -6,6 +6,7 @@
   padding: 0;
   box-sizing: 0;
   font-family: "Nunito";
+  font-size: 1.1rem;
 }
 
 body {
@@ -15,6 +16,10 @@ body {
 
 .container {
   margin: 1rem 2rem 1rem 2rem;
+}
+
+h2 {
+  font-size: 1.4rem;
 }
 
 .text-decoration-none {
@@ -317,6 +322,12 @@ body {
   .app-img {
     width: 15rem;
     top: 67rem;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1095px) {
+  .app-img {
+    top: 69rem;
   }
 }
 
