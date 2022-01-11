@@ -266,9 +266,19 @@ h2 {
   .values-flexbox {
     flex-direction: row;
   }
+}
+
+@media only screen and (max-width: 850px) and (min-width: 768px) {
   .values-text {
     width: 20rem;
-    height: 13rem;
+    height: 20rem;
+  }
+}
+
+@media (min-width: 850px) {
+  .values-text {
+    width: 20rem;
+    height: 18rem;
   }
 }
 
