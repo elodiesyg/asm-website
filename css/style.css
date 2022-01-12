@@ -1,11 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: 0;
-  font-family: "Nunito";
+  font-family: 'Nunito';
   font-size: 1.1rem;
 }
 
@@ -31,7 +31,7 @@ h2 {
 }
 
 .roboto {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .white {
@@ -135,7 +135,7 @@ h2 {
 /* Background Image */
 
 .bg-image {
-  background-image: url("../img/bg.jpg");
+  background-image: url('../img/bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   height: 20rem;
@@ -151,6 +151,11 @@ h2 {
   width: 8rem;
   position: absolute;
   top: 49rem;
+}
+
+.selfpicture {
+  width: 8rem;
+  margin-top: -10rem;
 }
 
 /* Why content */
