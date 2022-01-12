@@ -165,7 +165,7 @@ h2 {
 
 /* Why content */
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .text-initial {
     text-align: initial;
   }
