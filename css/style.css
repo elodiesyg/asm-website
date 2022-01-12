@@ -165,6 +165,12 @@ h2 {
 
 /* Why content */
 
+@media (min-width: 768px) {
+  .text-initial {
+    text-align: initial;
+  }
+}
+
 .why-img {
   width: 15rem;
 }
